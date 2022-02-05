@@ -1,0 +1,225 @@
+--Made By Infinite#7712
+--If U Crack This I Wouldn't care
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local Back = Instance.new("ImageLabel")
+local Back_2 = Instance.new("ImageLabel")
+local Back_3 = Instance.new("ImageLabel")
+local Back_4 = Instance.new("ImageLabel")
+local Back_5 = Instance.new("ImageLabel")
+local Back_6 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local MagStick = Instance.new("TextButton")
+local MagAxe = Instance.new("TextButton")
+local MagPick = Instance.new("TextButton")
+local MagMask = Instance.new("TextButton")
+local MagChestplate = Instance.new("TextButton")
+local MagGreaves = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Name = "Frame"
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.844122648, 0, 0.352760732, 0)
+Frame.Size = UDim2.new(0, 169, 0, 430)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+Frame.Active = true
+Frame.Draggable = true
+
+Back.Name = "Back"
+Back.Parent = Frame
+Back.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Back.BackgroundTransparency = 1.000
+Back.Position = UDim2.new(0.0876686573, 0, 0.112883449, 0)
+Back.Size = UDim2.new(0, 136, 0, 39)
+Back.Image = "rbxassetid://3570695787"
+Back.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Back.ScaleType = Enum.ScaleType.Slice
+Back.SliceCenter = Rect.new(100, 100, 100, 100)
+Back.SliceScale = 0.120
+
+Back_2.Name = "Back"
+Back_2.Parent = Frame
+Back_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Back_2.BackgroundTransparency = 1.000
+Back_2.Position = UDim2.new(0.0876686573, 0, 0.252418339, 0)
+Back_2.Size = UDim2.new(0, 136, 0, 39)
+Back_2.Image = "rbxassetid://3570695787"
+Back_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Back_2.ScaleType = Enum.ScaleType.Slice
+Back_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Back_2.SliceScale = 0.120
+
+Back_3.Name = "Back"
+Back_3.Parent = Frame
+Back_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Back_3.BackgroundTransparency = 1.000
+Back_3.Position = UDim2.new(0.0876686573, 0, 0.39195323, 0)
+Back_3.Size = UDim2.new(0, 136, 0, 39)
+Back_3.Image = "rbxassetid://3570695787"
+Back_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Back_3.ScaleType = Enum.ScaleType.Slice
+Back_3.SliceCenter = Rect.new(100, 100, 100, 100)
+Back_3.SliceScale = 0.120
+
+Back_4.Name = "Back"
+Back_4.Parent = Frame
+Back_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Back_4.BackgroundTransparency = 1.000
+Back_4.Position = UDim2.new(0.0876686573, 0, 0.531488121, 0)
+Back_4.Size = UDim2.new(0, 136, 0, 39)
+Back_4.Image = "rbxassetid://3570695787"
+Back_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Back_4.ScaleType = Enum.ScaleType.Slice
+Back_4.SliceCenter = Rect.new(100, 100, 100, 100)
+Back_4.SliceScale = 0.120
+
+Back_5.Name = "Back"
+Back_5.Parent = Frame
+Back_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Back_5.BackgroundTransparency = 1.000
+Back_5.Position = UDim2.new(0.0876686573, 0, 0.671023011, 0)
+Back_5.Size = UDim2.new(0, 136, 0, 39)
+Back_5.Image = "rbxassetid://3570695787"
+Back_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Back_5.ScaleType = Enum.ScaleType.Slice
+Back_5.SliceCenter = Rect.new(100, 100, 100, 100)
+Back_5.SliceScale = 0.120
+
+Back_6.Name = "Back"
+Back_6.Parent = Frame
+Back_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Back_6.BackgroundTransparency = 1.000
+Back_6.Position = UDim2.new(0.0876686573, 0, 0.810557902, 0)
+Back_6.Size = UDim2.new(0, 136, 0, 39)
+Back_6.Image = "rbxassetid://3570695787"
+Back_6.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Back_6.ScaleType = Enum.ScaleType.Slice
+Back_6.SliceCenter = Rect.new(100, 100, 100, 100)
+Back_6.SliceScale = 0.120
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.00591715984, 0, 0.918604612, 0)
+TextLabel.Size = UDim2.new(0, 168, 0, 25)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Made By Infinite#7712"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 15.000
+
+MagStick.Name = "MagStick"
+MagStick.Parent = Frame
+MagStick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MagStick.BackgroundTransparency = 1.000
+MagStick.Position = UDim2.new(0.0876681507, 0, 0.113953486, 0)
+MagStick.Size = UDim2.new(0, 135, 0, 38)
+MagStick.Font = Enum.Font.GothamBold
+MagStick.Text = "Mag Stick"
+MagStick.TextColor3 = Color3.fromRGB(255, 255, 255)
+MagStick.TextSize = 14.000
+MagStick.MouseButton1Down:connect(function()
+	local A_1 = "Magnetite Stick"
+	local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+	Event:FireServer(A_1)
+end)
+
+
+MagAxe.Name = "MagAxe"
+MagAxe.Parent = Frame
+MagAxe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MagAxe.BackgroundTransparency = 1.000
+MagAxe.Position = UDim2.new(0.0876681507, 0, 0.251162767, 0)
+MagAxe.Size = UDim2.new(0, 135, 0, 38)
+MagAxe.Font = Enum.Font.GothamBold
+MagAxe.Text = "Mag Axe"
+MagAxe.TextColor3 = Color3.fromRGB(255, 255, 255)
+MagAxe.TextSize = 14.000
+MagAxe.MouseButton1Down:connect(function()
+	local A_1 = "Magnetite Axe"
+	local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+	Event:FireServer(A_1)
+end)
+
+MagPick.Name = "MagPick"
+MagPick.Parent = Frame
+MagPick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MagPick.BackgroundTransparency = 1.000
+MagPick.Position = UDim2.new(0.0935853124, 0, 0.393023252, 0)
+MagPick.Size = UDim2.new(0, 135, 0, 38)
+MagPick.Font = Enum.Font.GothamBold
+MagPick.Text = "Mag Pick"
+MagPick.TextColor3 = Color3.fromRGB(255, 255, 255)
+MagPick.TextSize = 14.000
+MagPick.MouseButton1Down:connect(function()
+	local A_1 = "Magnetite Pick"
+	local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+	Event:FireServer(A_1)
+end)
+
+MagMask.Name = "MagMask"
+MagMask.Parent = Frame
+MagMask.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MagMask.BackgroundTransparency = 1.000
+MagMask.Position = UDim2.new(0.0995024741, 0, 0.532558143, 0)
+MagMask.Size = UDim2.new(0, 135, 0, 38)
+MagMask.Font = Enum.Font.GothamBold
+MagMask.Text = "Mag Mask"
+MagMask.TextColor3 = Color3.fromRGB(255, 255, 255)
+MagMask.TextSize = 14.000
+MagMask.MouseButton1Down:connect(function()
+	local A_1 = "Magnetite Mask"
+	local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+	Event:FireServer(A_1)
+end)
+
+MagChestplate.Name = "MagChestplate"
+MagChestplate.Parent = Frame
+MagChestplate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MagChestplate.BackgroundTransparency = 1.000
+MagChestplate.Position = UDim2.new(0.0995024741, 0, 0.669767439, 0)
+MagChestplate.Size = UDim2.new(0, 135, 0, 38)
+MagChestplate.Font = Enum.Font.GothamBold
+MagChestplate.Text = "Mag Chestplate"
+MagChestplate.TextColor3 = Color3.fromRGB(255, 255, 255)
+MagChestplate.TextSize = 14.000
+MagChestplate.MouseButton1Down:connect(function()
+	local A_1 = "Magnetite Chestplate"
+	local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+	Event:FireServer(A_1)
+end)
+
+MagGreaves.Name = "MagGreaves"
+MagGreaves.Parent = Frame
+MagGreaves.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MagGreaves.BackgroundTransparency = 1.000
+MagGreaves.Position = UDim2.new(0.0876681507, 0, 0.811627924, 0)
+MagGreaves.Size = UDim2.new(0, 135, 0, 38)
+MagGreaves.Font = Enum.Font.GothamBold
+MagGreaves.Text = "Mag Greaves"
+MagGreaves.TextColor3 = Color3.fromRGB(255, 255, 255)
+MagGreaves.TextSize = 14.000
+MagGreaves.MouseButton1Down:connect(function()
+	local A_1 = "Magnetite Greaves"
+	local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+	Event:FireServer(A_1)
+end)
+
+TextLabel_2.Parent = ScreenGui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.843270898, 0, 0.352147251, 0)
+TextLabel_2.Size = UDim2.new(0, 169, 0, 50)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "Booga Crafter"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 20.000
